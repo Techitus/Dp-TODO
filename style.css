@@ -47,3 +47,10 @@ li{
     border-radius: 4px;
     cursor: pointer;
 }
+li.completed{
+    text-decoration: line-through;
+    color: #ccc;
+}
+li:hover{
+    background-color: #f2f2f2;
+}
