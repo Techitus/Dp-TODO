@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>TODO</title>
 </head>
 <body>
-    
+    <h2>TODO APP</h2>
+    <div class="container">
+        <input type="text" name="todoInput" id="todoInput" placeholder="Enter your todo here...">
+        <button type="submit">Add</button>
+       
+    </div> <br>
+    <div class="searchBar">
+        <label for="searchInput">Search:</label>
+        <input type="search" name="searchInput" id="searchInput">
+    </div>
+    <ul class="todoList"></ul>
+    <div class="display">
+        <p>Total tasks:<span id="totalTasks">0</span></p>
+        <p>Completed tasks:<span id="completedTasks">0</span></p>
+    </div>
 </body>
 </html>
